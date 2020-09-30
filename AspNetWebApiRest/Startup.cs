@@ -7,7 +7,13 @@ using Newtonsoft.Json.Serialization;
 using Owin;
 
 namespace AspNetWebApiRest
-{//The code below creates an OWIN pipeline for hosting your Web API, and configures the routing.
+{
+    //Completed using this tutorial
+    //https://developer.okta.com/blog/2019/03/13/build-rest-api-with-aspnet-web-api
+
+
+
+    //The code below creates an OWIN pipeline for hosting your Web API, and configures the routing.
     public class Startup
     {//part 1
         public void Configuration(IAppBuilder app) 
