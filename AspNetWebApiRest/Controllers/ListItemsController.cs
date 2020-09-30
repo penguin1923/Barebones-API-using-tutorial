@@ -8,6 +8,7 @@ using System.Web.Http;
 
 namespace AspNetWebApiRest.Controllers
 {//part 2 was creating this class. it auto populated all this information
+   [Authorize]
     public class ListItemsController : ApiController
     {
         private static List<CustomListItem> _listItems { get; set; } = new List<CustomListItem>();
